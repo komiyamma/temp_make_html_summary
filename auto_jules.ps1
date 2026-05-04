@@ -5,7 +5,7 @@
   -d '{
     "prompt": "このリポジトリの gemini_command.md の内容を実行してください",
     "sourceContext": {
-      "source": "sources/github/komiyamma/make_html_summary",
+      "source": "sources/github/komiyamma/temp_make_html_summary",
       "githubRepoContext": {
         "startingBranch": "main"
       }
