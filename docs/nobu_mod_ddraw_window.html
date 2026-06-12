@@ -1,0 +1,66 @@
+<div class="content-box mb-3 content-lighten">
+    <h2><i class="fa fa-tv fa-fw"></i>蒼天録をウィンドウモードで起動する</h2>
+</div>
+
+<div class="content-box mb-3 content-lighten">
+    <h3>動作環境</h3>
+    <p><img src="https://img.shields.io/badge/蒼天録-with_PK-6479ff.svg"> <img src="https://img.shields.io/badge/Steam_(35周年記念)-OK-6479ff.svg"> <img src="https://img.shields.io/badge/Others-？-64bb64.svg"></p>
+    <ul>
+        <li>Windows 10 以上<br>
+            (管理人の動作確認は Windows 11 のみ)</li>
+        <li>DVD版等、古いバージョンで動作するかは不明（原理的には動作しますが未確認）</li>
+    </ul>
+</div>
+
+
+<div class="content-box mb-3 content-lighten">
+    <h3>ダウンロード</h3>
+    <div class="content-box">
+        <div class="row">
+            <div class="card mb-3 ms-3" style="max-width: 30rem;">
+                <div class="card-body text-center">
+                    <div class="row">
+                        <div class="col-12"><small>更新日 %(year)04d/%(mon)02d/%(mday)02d</small></div>
+                    </div>
+                    <a href="%(file)s" class="btn btn-primary"><i class="fa fa-download fa-fw"></i>ddraw.zip v7.1.0</a>
+                </div>
+            </div>
+        </div>
+        <fieldset class="alert alert-info">
+            <legend>ダウンロードした後、<mark>解凍する前</mark>に、zipを「ブロック解除(or 許可する)」必須</legend>
+            <p>zipを解凍する際には、「プロパティ」から「ブロック解除(or 許可する)」してください。<br>
+                「プロパティ」に「ブロック解除(or 許可する)」といった項目が無いようならこの作業は不要です。</p>
+            <p><img src="./cnt_mod_ddraw/cnt_mod_ddraw_01.png"></p>
+        </fieldset>
+    </div>
+</div>
+
+<div class="content-box mb-3 content-lighten">
+    <h3>蒼天録ゲームのフォルダーへファイル群をコピー</h3>
+    <p>ゲーム本体のファイルが<b>上書きされたりはしません</b>。<br>
+        (ゲーム本体のファイル名とは被っていない)</p>
+</div>
+
+<div class="content-box mb-3 content-lighten">
+    <h3>解像度の変更</h3>
+    <p>ddraw.ini をテキストエディタで開いて、以下の項目を変更してください。<br>
+        蒼天録はアスペクト比が4:3で固定です。<br>
+        下記は「横1200ピクセル、縦900ピクセル」の例です。</p>
+    <fieldset class="code">
+        <legend>ddraw.ini</legend>
+        <pre class="brush:text;">[ddraw]
+width=1200
+height=900
+    </pre>
+    </fieldset>
+    <p><img src="./cnt_mod_ddraw/cnt_mod_ddraw_02.png"></p>
+</div>
+
+
+
+<div class="content-box mb-3 content-lighten">
+    <h3>リポジトリ</h3>
+    <p>
+        <a href="https://github.com/tenshoukijp/nobu10_mod_ddraw">Github</a>にリポジトリがあります。<br>
+    </p>
+</div>
